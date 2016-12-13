@@ -2,6 +2,7 @@ $( document ).ready(function()
     {
         $("#submitButton").click(function()
             {
+                $("#gifOutput").html("");
                 var searchTerm = $("#searchBox").val();
                 var i = 0
                 console.log(searchTerm);
